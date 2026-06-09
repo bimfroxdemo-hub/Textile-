@@ -10,6 +10,7 @@ function Navbar() {
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Collection", path: "/collection" },
+    {name:"Products", path:"/products"},
     { name: "Contact", path: "/contact" },
   ];
 

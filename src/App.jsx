@@ -5,7 +5,7 @@ import About from "./pages/About";
 import Collection from "./pages/Collection";
 import ProductDetails from "./pages/ProductDetails";
 import Contact from "./pages/Contact";
-
+import Products from "./pages/Products"
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -18,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/products" element={<Products/>}/>
         <Route path="/collection" element={<Collection />} />
         <Route path="/product" element={<ProductDetails />} />
         <Route path="/contact" element={<Contact />} />
